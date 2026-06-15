@@ -39,7 +39,7 @@ The simulation is executed via the command line, allowing full control over the 
 * `--Rmin` / `--Rmax`: The range of the Capacity Redundancy factor ($R$) to sweep.
 * `--pdd` & `--Tb`: Flags to enable the distributed PDD policy with a specific broadcast period $T_b$.
 
-**Authors & Developers**
+## Authors & Developers
 This simulation code and the corresponding final project were developed by:
 
 * Daniel Kachura
