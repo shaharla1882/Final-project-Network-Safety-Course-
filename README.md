@@ -13,7 +13,7 @@ In modern multihop networks, ensuring packets arrive before a strict deadline is
 To solve this, the paper proposes a **Primal-Dual (PD)** algorithmic framework that leverages **Capacity Redundancy ($R$)**—scaling the physical or logical bandwidth of links. The core mechanism implemented here is the **Priced-EDF** policy. It assigns a "shadow price" (dual variable) to each link based on its real-time congestion level. Packets are then scheduled using a combined priority metric that accounts for both their deadline urgency and the congestion price of their route, effectively mitigating bottlenecks.
 
 ## Simulator Architecture & Features
-The simulator (`Safety_in_graph_networks_PART_B.py`) models a slotted-time network environment:
+The simulator (`Safety_in_graph_networks_PART_B(1).py`) models a slotted-time network environment:
 * **Time & Transmission:** 1 hop takes 1 time slot. Each link has a capacity of $C_l \times R$ packets per slot.
 * **Routing:** Packets follow a shortest-path trajectory (hop count) towards their destinations to keep routing deterministic.
 * **Performance Metric:** The primary evaluation metric is the **Delivery Ratio** (the percentage of packets that successfully reach their destination before their deadline expires).
