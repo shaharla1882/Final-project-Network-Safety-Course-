@@ -16,7 +16,7 @@ The algorithms and theoretical framework implemented in this project are based o
 *Note: This code is intended for academic and educational purposes. All rights to the original Primal-Dual framework and Priced-EDF theory belong to the authors of the paper.*
 
 ## Features
-The simulator (`Safety_in_graph_networks_PART_B.py`) allows you to test:
+The simulator (`Safety_in_graph_networks_PART_B (1).py`) allows you to test:
 1. **Topologies:** A basic small network and a more complex 5x5 grid.
 2. **Scheduling Policies:**
    * `EDF (Earliest-Deadline-First)`: Standard scheduling prioritizing packets with the closest deadline.
