@@ -39,3 +39,21 @@ The simulation is executed via the command line, allowing full control over the 
 * `--Rmin` / `--Rmax`: The range of the Capacity Redundancy factor ($R$) to sweep.
 * `--pdd` & `--Tb`: Flags to enable the distributed PDD policy with a specific broadcast period $T_b$.
 
+**Authors & Developers**
+This simulation code and the corresponding final project were developed by:
+
+* Daniel Kachura
+
+* Ron Ashkenazi
+
+* Shahar Lavi
+
+* Asaf Schreiber
+
+* Ron Zimmerman
+
+**Course Instructor:** Prof. Kobi Cohen
+
+Electrical and Computer Engineering Department, Ben-Gurion University of the Negev (BGU)
+
+Note: The Primal-Dual and Priced-EDF theoretical frameworks are credited to the authors of the original paper mentioned above. This repository was built for academic research and educational purposes.
