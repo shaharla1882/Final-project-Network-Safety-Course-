@@ -1,4 +1,3 @@
-# Final-project-Network-Safety-Course-
 # Network Safety Final Project - Part B: Multihop Routing & Scheduling Simulation
 
 ## Overview
